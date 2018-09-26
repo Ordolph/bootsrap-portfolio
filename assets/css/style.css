@@ -1,6 +1,5 @@
-html{
-    margin:0;
-    padding:0;
+.container-fluid {
+    padding: 0;
 }
 .header {
     width: 100%;
@@ -22,6 +21,7 @@ h1 {
     box-shadow: 2px 1px 1px rgb(146, 170, 179);
     height: 100%;
     margin: 0;
+    font-weight: bold;
 }
 
 h2 {
@@ -32,6 +32,7 @@ h2 {
     margin-left: 5%;
     font-size: 200%;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 .home {
@@ -79,6 +80,11 @@ body {
     background-image: url(../images/seigaiha.png)
 }
 
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
 .profile {
     display: inline;
     margin: 15px;
@@ -96,6 +102,11 @@ p {
     text-indent: 40px;
     margin: 0;
     display: inline;
+}
+
+.clear {
+    clear: both;
+    line-height: 0;
 }
 
 footer {
@@ -144,6 +155,8 @@ footer {
 .port-img1 {
     margin: 15px;
 }
+
+
 
 .port-img2 {
     margin: 15px;
